@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="fullPage">
+        <div class="section1">
+            <h1>The First Section</h1>
+        </div>
+        <div class="section2">
+            <h1>The Second Section</h1>
+        </div>
+        <div class="section3">
+            <h1>The Third Section</h1>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.js"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true
+    });
+
+    //methods
+    fullpage_api.setAllowScrolling(false);
+    </script>
+
+</body>
+</html>
